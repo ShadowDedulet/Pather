@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel='stylesheet' href='static/style.css' type='text/css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&family=Poiret+One&family=Righteous&display=swap' rel='stylesheet'>
+</head>
+
+<body>
+    <div class='navbar'>
+        <div class='navBlock container vertical'>
+            <div class='navBlock container name'>Mazes</div>
+            <div class='navBlock container' id='mazes'></div>
+            <div class='navBlock container bot'></div>
+        </div>
+
+        <div class='navBlock separator'>
+            <div class='sepline'></div>
+        </div>
+
+        <div class='navBlock container vertical'>
+            <div class='navBlock container name'>Legend</div>
+            <div class='navBlock container' id='types'></div>
+            <div class='navBlock container bot' id='colors'></div>
+        </div>
+
+        <div class='navBlock separator'>
+            <div class='sepline'></div>
+        </div>
+
+        <div class='navBlock container vertical' id='vertical'>
+            <div class='navBlock container' id='points'></div>
+            <div class='navBlock container bot' id='logos'></div>
+            <div class='navBlock container'>
+                <div class='button' id='clsTab'>Clear Table</div>
+                <div class='button' id='visual'>Visualize</div>
+                <div class='button' id='clsPat'>Clear Path</div>
+            </div>
+        </div>
+
+        <div class='navBlock separator'>
+            <div class='sepline'></div>
+        </div>
+
+        <div class='navBlock container vertical'>
+            <div class='navBlock container name'>Algorithms</div>
+            <div class='navBlock container' id='algs'></div>
+            <div class='navBlock container bot' id='optim'>optimized</div>
+        </div>
+
+        <div class='navBlock separator'>
+            <div class='sepline'></div>
+        </div>
+
+        <div class='navBlock container vertical'>
+            <div class='navBlock container name'>Animation Speed</div>
+            <div class='navBlock container' id='speeds'></div>
+            <div class='navBlock container bot'></div>
+        </div>
+    </div>
+
+    <div class='content' id='cont'>
+        <div class='help' id='help'>
+            <p>Hi, it's my first JS project and yes - it's not done yet.</p>
+            <p>It's all much interactive, so go on and try it out.</p>
+            <p>Found a bug?<br><br>Drop an issue on <a target='blank' href='https://github.com/BootyAss/Pather'>GitHub</a>.<br><br>Send me a message on <a target='blank' href='https://vk.com/ijustwannabealone'>VKontakte</a>.</p>
+            <div class='button' id='but'>Go on!</div>
+        </div>
+        <div class='table-container' id='tabCon'></div>
+    </div>
+
+    <script src='src/lib.js' type='module'></script>
+    <script src='src/algs.js' type='module'></script>
+    <script src='src/mazes.js' type='module'></script>
+    <script src='src/main.js' type='module'></script>
+</body>
